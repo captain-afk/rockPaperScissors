@@ -1,0 +1,24 @@
+{
+    "gangsigns": [{
+        "id":0,
+        "name":"rock",
+        "tiesAgainst": [0],
+        "winsAgainst": [1],
+        "losesAgainst": [2]
+    },
+    {
+        "id":1,
+        "name": "scissors",
+        "tiesAgainst": [1],
+        "winsAgainst": [2],
+        "losesAgainst": [0]
+    },
+    {
+        "id": 2,
+        "name": "paper",
+        "tiesAgainst": [2],
+        "winsAgainst": [0],
+        "losesAgainst": [1]
+    }
+]
+}
