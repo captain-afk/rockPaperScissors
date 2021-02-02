@@ -4,21 +4,28 @@
         "name":"rock",
         "tiesAgainst": [0],
         "winsAgainst": [1],
-        "losesAgainst": [2]
+        "losesAgainst": [2,3]
     },
     {
         "id":1,
         "name": "scissors",
         "tiesAgainst": [1],
         "winsAgainst": [2],
-        "losesAgainst": [0]
+        "losesAgainst": [0,3]
     },
     {
         "id": 2,
         "name": "paper",
         "tiesAgainst": [2],
         "winsAgainst": [0],
-        "losesAgainst": [1]
+        "losesAgainst": [1,3]
+    },
+    {
+        "id": 3,
+        "name": "bomb",
+        "tiesAgainst": [3],
+        "winsAgainst": [0,1,2],
+        "losesAgainst": [6]
     }
 ]
 }
